@@ -1,0 +1,152 @@
+/* mobile.css */
+#main-header {
+    position: relative;
+    height: var(--mobile-haeder-height);
+    background: #fff;
+  }
+  
+  #main-header h1 {
+    text-align: center;
+    line-height: 70px;
+  }
+  
+  /* 모바일 로고 크기 */
+  #main-header h1 img {
+    height: 30px;
+  }
+  
+  #toggle-btn {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  
+  #gnb {
+    background: #eee;
+  }
+  
+  #gnb ul li {
+    margin: 8px 0;
+  }
+  
+  /* 텍스트 하이라이트 효과 */
+  #gnb ul li a {
+    opacity: 0.8;
+  }
+  
+  #gnb ul li a:hover {
+    opacity: 1;
+  }
+  
+  #gnb ul {
+    padding: 20px;
+    display: none;
+  }
+  
+  /* 메인비주얼 */
+  #main-visual {
+    background: #999;
+    width: 100%;
+    height: calc(100vh - var(--mobile-haeder-height));
+    color: #fff;
+    /* 세로구도 배경 */
+    background-image: url(../images/main-visual-mobile1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #main-visual .container {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    /* outline: 2px solid red; */
+    text-align: center;
+  }
+  
+  #main-visual h2 {
+    font-size: 24px;
+  }
+  
+  
+  
+  /* 메인콘텐츠 */
+  #main {
+    width: 100%;
+    background: #fff;
+  }
+  
+  #main article {
+    width: 100%;
+    padding: 60px 20px;
+    text-align: center;
+    /* outline: 1px solid red; */
+  }
+  
+  #main article .img {
+    background: #999;
+    width: 100%;
+    height: 300px;
+  }
+  
+  #main article .txt {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+  }
+  
+  .txt-box h2 {
+    margin-bottom: 20px;
+  }
+  
+  .txt-box p {
+    margin-bottom: 40px;
+  }
+  
+  #main article .img {
+    background: #ccc;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* 각각의 주제 이미지 */
+  #main article:nth-child(1) .img {
+    background-image: url(../images/main-sec01-img01.jpg);
+  }
+  #main article:nth-child(2) .img {
+    background-image: url(../images/main-sec01-img02.jpg);
+  }
+  #main article:nth-child(3) .img {
+    background-image: url(../images/main-sec01-img03.jpg);
+  }
+  
+  #main article .txt-box {
+    /* outline: 1px solid #333; */
+    width: 80%;
+  }
+  
+  /* about */
+  #about {
+    width: 100%;
+    background: #ccc;
+    text-align: center;
+    padding: 130px 20%;
+    background-image: url(../images/about-img.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+  }
+  
+  #about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    margin-bottom: 40px;
+  }
